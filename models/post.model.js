@@ -2,7 +2,7 @@ const mongoose=require('mongoose')
 
 const postSchema= new mongoose.Schema({
     title:String,
-    constent:String,
+    content:String,
     author:{type:mongoose.Schema.Types.ObjectId, ref:'User'},
     //followers:{type:mongoose.Schema.Types.ObjectId, ref:'Followers'},
   
